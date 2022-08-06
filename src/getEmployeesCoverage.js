@@ -25,9 +25,8 @@ function getEmployeeByName(object) {
   return {
     id: person.id,
     fullName: `${person.firstName} ${person.lastName}`,
-    species: animais.map((idAnimais) => data.species.find((bixo) => bixo.id === idAnimais).name),
-    locations: animais.map((idAnimais) => data.species.find((bixo) => bixo.id === idAnimais)
-  .location),
+    species: animais.map((idAnimais) => data.species.find((el) => el.id === idAnimais).name),
+    locations: animais.map((idAnimais) => data.species.find((el) => el.id === idAnimais).location),
   };
 }
 
