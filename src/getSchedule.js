@@ -34,4 +34,5 @@ function getSchedule(scheduleTarget) {
   }, {});
 }
 getSchedule();
+
 module.exports = getSchedule;
