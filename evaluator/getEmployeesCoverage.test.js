@@ -1,6 +1,6 @@
 const getEmployeesCoverage = require('../src/getEmployeesCoverage');
 
-describe('11 - Implemente a função `getEmployeesCoverage` para retornar as informações sobre a pessoa colaboradora e por quais espécies ela é responsável', () => {
+describe('11 - Implemente a função `getEmployeesCoverage` para retornar as infcleael', () => {
   it('se o objeto de opções tiver a propriedade name retorna somente a pessoa correspondente', () => {
     const actual = getEmployeesCoverage({ name: 'Sharonda' });
 
